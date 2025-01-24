@@ -11,7 +11,7 @@ A Python script that automates sending multiple messages to facebook messenger u
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/spam-bot.git
+   git clone https://github.com/Typh00ns/FB-Spam-_bot.git
    ```
 2. Create and activate a Python virtual environment:
    ```bash
@@ -28,11 +28,12 @@ A Python script that automates sending multiple messages to facebook messenger u
    ```
 
 # For people without Anaconda:
-python -m venv spam_bot_env  # Create a virtual environment
-spam_bot_env\Scripts\activate  # Activate the virtual environment on Windows
+```bash
+python -m venv spam_bot_env  
+spam_bot_env\Scripts\activate  #For Windows
 source spam_bot_env/bin/activate  # For Linux/macOS
 pip install -r requirements.txt  # Install the dependencies
-
+```
 ## Usage
 The script runs locally on your machine, and no credentials are stored or shared in the repository. When running the script, you'll need to log in with a Facebook account, but this information is handled securely through the browser and is not stored by the script.
 
