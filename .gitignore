@@ -1,0 +1,22 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__
+
+# Virtual environment
+spam_bot_env/
+
+# .env file for sensitive information (if you use it)
+.env
+
+# IDE/editor files (optional, depending on your editor)
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebook and Lab specific files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Jupyter Lab configuration files
+profile_default/
